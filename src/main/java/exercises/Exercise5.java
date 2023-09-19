@@ -29,7 +29,7 @@ public class Exercise5 {
 
         System.out.print("Select the letter to display: ");
         int letterNumber = sc.nextInt();
-        
+
         while (letterNumber < 1 || letterNumber > word.length()) {
 
             System.out.println("You have to select a position between 1 and " + word.length());
